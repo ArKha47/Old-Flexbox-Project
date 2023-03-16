@@ -77,7 +77,6 @@ button {
 
 .main {
     display: flex;
-    flex: 1;
     flex-direction: column;
     background-color: #f9faf8;
 }
@@ -87,6 +86,7 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding: 16px;
 }
 .main-content{
     display: flex;
@@ -108,20 +108,33 @@ button {
 
 .quote-section{
     display: flex;
-    flex: 1;
-    background-color: #1f2937;
+    align-items: center;
+    min-height: 30%;
+    background-color: #e5e7eb;
+}
+.quote-section > .quote-paragraph {
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    font: #1f2937;
+    padding: 12px 200px 12px 200px;
 }
 
 .lower-section{
     display: flex;
-    flex: 1;
     background-color: #f9faf8;
+    padding: 12px 200px 12px 200px;
+}
+
+.lower-section-box{
+    margin: auto;
+    height: 100px;
+    width: 1000px;
+    background-color:#3882f6;
+
 }
 
 .footer{
     display: flex;
-    flex: 1;
     background-color: #1f2937;
 }
-
-
