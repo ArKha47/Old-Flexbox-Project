@@ -11,19 +11,22 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 12px 200px 12px 200px;
+    gap: 7rem;
+    padding: 2rem 0 7rem 0;
+/*  padding: 12px 200px 12px 200px;*/
 }
 
 .hero > .hero-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 70%;
+    margin: auto;
 }
 
 .hero-header > .hero-header-logo{
     font-size: 24px;
     font-weight: bold;
-    flex-shrink: 0;
 }
 
 .hero-header > .hero-header-links{
@@ -39,8 +42,9 @@ a{
 
 .hero > .hero-main {
     display: flex;
-    gap: 16px;
-    padding: 100px 0 100px 0;
+    gap: 3rem;
+    width: 70%;
+    margin: auto;
 
 }
 
@@ -48,7 +52,7 @@ a{
     display: flex;
     flex: 1;
     flex-direction: column;
-    gap: 12px;
+    gap: 1rem;
 }
 .hero-main-text > .hero-bold-text{
     font-size: 50px;
@@ -70,6 +74,7 @@ button {
     flex: 1;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: gray;
 }
 
@@ -79,58 +84,80 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
+    padding: 3rem 0 7rem 0;
+    gap: 3rem;
 }
-.main-title{
+.main > .main-title {
     display: flex;
     justify-content: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding: 16px;
 }
-.main-content{
+.main > .main-content {
     display: flex;
     justify-content: space-around;
-    padding: 12px 200px 12px 200px;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
 }
-.main-content > .main-item{
+.main-content > .main-item {
     display: flex;
     flex: 0;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.image{
+
+.main-item-box {
+    padding: 5rem;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-radius: 16px;
+}
+
+.image {
     width: 150px;
     height: 150px;
 }
 
 
-.quote-section{
-    display: flex;
+.quote-section {
     align-items: center;
-    min-height: 30%;
     background-color: #e5e7eb;
+    padding: 7rem 0 7rem 0;
 }
-.quote-section > .quote-paragraph {
-    font-size: 24px;
+
+.quote-section > .quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.quote-wrapper > .quote-paragraph {
+    font-size: 2rem;
     font-weight: lighter;
     font-style: italic;
     font: #1f2937;
-    padding: 12px 200px 12px 200px;
+}
+.quote-wrapper > .quote-author {
+    text-align: end;
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .lower-section{
     display: flex;
     background-color: #f9faf8;
-    padding: 12px 200px 12px 200px;
+    padding: 7rem 0 7rem 0;
 }
 
 .lower-section-box{
     margin: auto;
-    height: 100px;
-    width: 1000px;
-    background-color:#3882f6;
+    background-color: #3882f6;
+    width: 70%;
+    padding: 4rem;
 
 }
 
