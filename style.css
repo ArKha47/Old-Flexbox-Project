@@ -66,13 +66,14 @@ a{
 
 button {
     font-size: 16px;
-    padding: 5px;
-    width: 80px;
     background-color: #3882f6;
     border: none;
     border-radius: 8px;
     color: #f9faf8;
+    width: 8rem;
+    padding: 1rem;
 }
+
 
 .hero-main > .hero-image-placeholder {
     display: flex;
@@ -113,6 +114,7 @@ button {
     align-items: center;
     text-align: center;
     gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .main-item-box {
@@ -176,7 +178,7 @@ button {
     border-style: solid;
     border-color: white;
     border-width: 3px;
-    
+
 }
 .lower-section-box-text{
     display: flex;
