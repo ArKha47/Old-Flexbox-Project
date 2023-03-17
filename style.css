@@ -186,9 +186,11 @@ button {
     color:white;
 }
 
-
-
 .footer{
     display: flex;
     background-color: #1f2937;
+    padding: 3rem;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
 }
